@@ -1,0 +1,115 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "مشويات"
+    },
+    {
+      "id": 2,
+      "name": "مقبلات"
+    },
+    {
+      "id": 3,
+      "name": "مشروبات"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "كفتة",
+      "price": 120,
+      "category": 1
+    },
+    {
+      "id": 2,
+      "name": "كباب",
+      "price": 140,
+      "category": 1
+    },
+    {
+      "id": 3,
+      "name": "فراخ",
+      "price": 80,
+      "category": 1
+    },
+    {
+      "id": 5,
+      "name": "صنف 2",
+      "price": 22,
+      "category": 3
+    },
+    {
+      "id": 6,
+      "name": "شاي ",
+      "price": 2,
+      "category": 3
+    },
+    {
+      "id": 7,
+      "name": "كاكاو",
+      "price": 3,
+      "category": 3
+    },
+    {
+      "id": 8,
+      "name": "سلطة",
+      "price": 5,
+      "category": 2
+    },
+    {
+      "id": 9,
+      "name": "كباب",
+      "price": 140,
+      "category": 2
+    },
+    {
+      "id": 22,
+      "name": "فراخ",
+      "price": 80,
+      "category": 2
+    },
+    {
+      "id": 43,
+      "name": "صنف 2",
+      "price": 22,
+      "category": 2
+    },
+    {
+      "id": 18,
+      "name": "سلطة",
+      "price": 5,
+      "category": 1
+    },
+    {
+      "id": 39,
+      "name": "كباب",
+      "price": 140,
+      "category": 1
+    },
+    {
+      "id": 42,
+      "name": "فراخ",
+      "price": 80,
+      "category": 2
+    },
+    {
+      "id": 26,
+      "name": "صنف 2",
+      "price": 22,
+      "category": 2
+    },
+    {
+      "id": 52,
+      "name": "فراخ",
+      "price": 80,
+      "category": 3
+    },
+    {
+      "id": 96,
+      "name": "صنف 2",
+      "price": 22,
+      "category": 3
+    }
+  ],
+  "cart": []
+}

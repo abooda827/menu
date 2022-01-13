@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col">
+    <h2 class="text-center">Add new Category</h2>
+    <form #f="ngForm" (ngSubmit)="addNewCat(f)">
+      <input
+        ngModel
+        name="name"
+        type="text"
+        class="form-control"
+        placeholder="Name"
+        required
+      />
+      <br />
+      <button class="btn btn-success" [disabled]="!f.valid">
+        Add Category
+      </button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="row">
+  <div class="col">
+    <h2 class="text-center">Add new Item</h2>
+    <form #f="ngForm" (ngSubmit)="addNewItem(f)">
+      <input
+        ngModel
+        name="name"
+        type="text"
+        class="form-control"
+        placeholder="Name"
+        required
+      />
+      <br />
+      <input
+        ngModel
+        name="price"
+        type="number"
+        class="form-control"
+        placeholder="Price"
+        required
+      />
+      <br />
+      <select class="form-control" name="category">
+        <option disabled selected>Catigries</option>
+        <option
+          *ngFor="let cat of categories"
+          value="{{ cat.id }}"
+          class="form-control"
+          required
+        >
+          {{ cat.name }}
+        </option>
+      </select>
+      <br />
+      <button class="btn btn-primary" [disabled]="!f.valid">Add</button>
+    </form>
+  </div>
+</div>
